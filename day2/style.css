@@ -15,7 +15,41 @@ body {
     padding: 0;
     font-size: 100%;
     line-height: 1; */
-    background-color: aqua;
+    background-color: white;
     background-image: url(https://picsum.photos/200);
     background-repeat: no-repeat;
+}
+.RedColor {
+    background-color:tomato;
+}
+.BlueColor{
+    background-color:aqua;
+}
+.GreenColor{
+    background-color:green;
+}
+aside {
+    margin-top: 100px;
+    color: gray
+}
+p{
+    color:aqua
+}
+em{
+    color: gray
+}
+#shout {
+    margin-top: 300px;
+}
+a:hover {
+    color: #FF0000;
+}
+a {
+    cursor: pointer;
+}
+a:active {
+    color:#FF0000;
+}
+ul>li {
+    background-color:aquamarine;
 }
