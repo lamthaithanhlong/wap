@@ -10,6 +10,12 @@ p {
     word-spacing: 10px;
 }
 body {
+    /*This is the reset code read reset code*/
+    /* margin: 0;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1; */
+    background-color: aqua;
     background-image: url(https://picsum.photos/200);
     background-repeat: no-repeat;
 }
