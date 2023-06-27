@@ -1,0 +1,15 @@
+/* Change color of H1 */
+h1 {
+    background-color: rgb(101,155,239);
+    color: rgb(0,0,0);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p {
+    text-align: center;
+    text-shadow: -2px 5px gray;
+    word-spacing: 10px;
+}
+body {
+    background-image: url(https://picsum.photos/200);
+    background-repeat: no-repeat;
+}
