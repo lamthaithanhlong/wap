@@ -1,8 +1,36 @@
-p {
+#button1 {
     border-width: 3px;
     border-style: solid;
     border-color: gray;
-    border-radius: 5px;
+    border-radius: 10px;
     max-width: 5%;
     text-align: center;
+    padding-left: 100px;
+}
+#button2 {
+    border: 3px solid gray;
+    border-radius: 10px;
+    max-width: 10%;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+#box {
+    border-width: 5px;
+    border-style: solid;
+    background-color: gray;
+    padding-bottom: 5%;
+    max-width: 40%;
+    max-height: 20%;
+}
+
+#box-inside {
+    border-width: 5px;
+    border-style: solid;
+    background-color: green;
+    padding-bottom: 30%;
+    max-width: 50%;
+    margin-left: 20%;
+    margin-top:10%;
 }
