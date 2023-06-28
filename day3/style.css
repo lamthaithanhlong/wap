@@ -16,7 +16,7 @@
     margin-top: 100px;
 }
 
-#box {
+#container {
     border-width: 5px;
     border-style: solid;
     background-color: gray;
@@ -25,7 +25,7 @@
     max-height: 20%;
 }
 
-#box-inside {
+#box {
     border-width: 5px;
     border-style: solid;
     background-color: green;
@@ -33,4 +33,47 @@
     max-width: 50%;
     margin-left: 20%;
     margin-top:10%;
+}
+
+#box1 {
+    visibility: hidden;
+    border-width: 5px;
+    border-style: solid;
+    background-color: green;
+    padding-bottom: 30%;
+    max-width: 50%;
+    margin-left: 20%;
+    margin-top:10%;
+}
+
+#box2 {
+    border-width: 5px;
+    border-style: solid;
+    background-color: green;
+    padding-bottom: 30%;
+    max-width: 50%;
+    margin-left: 20%;
+    margin-top:10%;
+}
+
+#myButton {
+    border: 3px solid gray;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    opacity: 1px;
+    cursor: pointer;
+    color:aliceblue;
+    background-color: gray;
+}
+
+#myButton:hover {
+    background-color:aliceblue;
+    color: black;
+    transition: 1s;
+}
+
+#myButton:active {
+    background-color:aliceblue;
+    color: black;
 }
