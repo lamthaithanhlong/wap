@@ -1,0 +1,8 @@
+p {
+    border-width: 3px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 5px;
+    max-width: 5%;
+    text-align: center;
+}

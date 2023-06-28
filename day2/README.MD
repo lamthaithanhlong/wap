@@ -13,7 +13,7 @@ the color will be Green if you change  <p class="RedColor GreenColor BlueColor">
 it still green
 
 if you are you class="key man" the charater is ".key {} .man {}" 
-if you use id="key" the charater is "#key {}"
+if you use id="key" the charater is "#key  {}"
 
 <p class="RedColor GreenColor BlueColor">
 -> class can have multiple name but id should be the one
