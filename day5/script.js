@@ -40,6 +40,7 @@
 
     let f3 = (x,y,z)=>x+y+z;
 
+    // Spread operator
     function f4(a,b){
         return {
             a,
@@ -57,9 +58,26 @@
         }
     }
 
+    // spread operator demo
+    // clone demo
+    const arr = [1,2,3]
+    const arr2 = [3,4]
+    const obj = {
+        name : 'thao',
+        surname : 'vu'
+    }
+    // shadow clone
+    const combined = arr
+    // complex clone
+    const combined1 = [...arr,...arr2]
+    const combined2 = {...obj, name: 'machine'}
+
     console.log(highPricedCategories)
     console.log(f1(1,2,3))
     console.log(f2(1,2,3))
     console.log(f3(1,2,3))
     console.log(f4(1,2))
     console.log(f5(1,2))
+    console.log(combined)
+    console.log(combined1)
+    console.log(combined2)
