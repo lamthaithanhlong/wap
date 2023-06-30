@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Day 5</title>
+    </head>
+    <body>
+        <script>
+            let arr = [1, 2, 3, 4, 5]
+            for(let i = 1; i <= arr.length; i++) {
+                arr = i*2;
+            }
+
+            // This should not work
+            // const demo = 5
+            // demo = 6
+            // console.log(demo)
+
+            // we can modify constant like this
+            const point = {x:1, y:10}
+            point.y=20
+            console.log(point)
+
+            // 23 - string high priority
+            let one = "2" + 3
+            console.log(one)
+
+            // 6
+            let two = "2" * 3
+            console.log(two)
+
+            // Operator
+            console.log("=-=========================-=")
+            console.log("6.0" == 6) // true
+            console.log(6.0 == 6) // true
+            console.log("6.0" === 6) // this === is strict this will check type and value false
+
+            // Boolean Type
+            console.log("=-=========================-=")
+            const x=5
+            console.log(!x)
+            console.log(x)
+            console.log(!!x)
+
+            // Boolean Type
+            console.log("-========================")
+            let iLikeWebApps = true
+            console.log(iLikeWebApps)
+            let iLikeWebApps1 = "IE6" > 0
+            console.log(iLikeWebApps1)
+            if("web dev is great") {/*true*/}
+            if(0) {/*false*/}
+        </script>
+    </body>
+</html>

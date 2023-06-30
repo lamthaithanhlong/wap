@@ -25,6 +25,17 @@
     max-height: 20%;
 }
 
+#container-another {
+    border-width: 5px;
+    border-style: solid;
+    background-color: gray;
+    padding-bottom: 5%;
+    max-width: 40%;
+    max-height: 20%;
+    /*Remeber use display: flex*/
+    display: flex;
+}
+
 #box {
     border-width: 5px;
     border-style: solid;
@@ -56,6 +67,36 @@
     margin-top:10%;
 }
 
+#box3 {
+    border-width: 5px;
+    border-style: solid;
+    background-color: green;
+    padding-bottom: 30%;
+    max-width: 50%;
+    margin-left: 20%;
+    margin-top:10%;
+}
+
+#box4 {
+    border-width: 5px;
+    border-style: solid;
+    background-color: green;
+    padding-bottom: 30%;
+    max-width: 50%;
+    margin-left: 20%;
+    margin-top:10%;
+}
+
+#box5 {
+    border-width: 5px;
+    border-style: solid;
+    background-color: green;
+    padding-bottom: 30%;
+    max-width: 50%;
+    margin-left: 20%;
+    margin-top:10%;
+}
+
 #myButton {
     border: 3px solid gray;
     text-align: center;
@@ -76,4 +117,22 @@
 #myButton:active {
     background-color:aliceblue;
     color: black;
+}
+
+#container-another-1 {
+    border-width: 5px;
+    border-style: solid;
+    background-color: gray;
+    padding-bottom: 5%;
+    max-width: 40%;
+    max-height: 20%;
+    /* Remeber use display: flex */
+    display: flex;
+}
+
+#box6 {
+    visibility: hidden;
+    border-width: 5px;
+    border-style: solid;
+    background-color: green;
 }
