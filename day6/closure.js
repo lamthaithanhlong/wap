@@ -47,3 +47,30 @@ console.log(x4(3))
 console.log(x5(3))
 console.log(x6(3))
 console.log(x7(3))
+
+
+
+
+
+function newCounter(){
+    var count = 0
+    return function(){
+    count += 1
+    return count
+    }
+} 
+    var counter = newCounter()
+    console.log(counter())
+    console.log(counter())
+    console.log(counter())
+
+
+    // no closure
+    function getValue(){
+        var a = 1
+        var b = 2
+        return a + b
+    }
+    
+    var val = getValue()
+    console.log(val)
