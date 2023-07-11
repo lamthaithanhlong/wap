@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Test</title>
+        <meta name="viewport" content="width=device-width, initial">
+        <style>
+            ul > li {
+                background-color: blue;
+            }
+            li strong {
+                color: red
+            }
+            ul > li > strong {
+                color: green
+            }
+            #ad li#line strong {
+                text-decoration: underline;
+            }
+            #ad li#line1 em p {
+                color: pink
+            }
+            button:hover {
+                transition: 3s;
+                color: yellow
+            }
+            #text1:link {
+                color: pink
+            }
+            #text2:visited {
+                color: pink
+            }
+            #text3::first-letter {
+                font-size: 50px;
+            }
+            #text3:last-child {
+                font-size: 50px;
+            }
+            input[name='username'] {
+                width: 2000px;
+                padding: 5px;
+                margin: 10px 0;
+                font-size: 14px;
+            }
+            input[name='email'] {
+                width: 2000px;
+                padding: 5px;
+                margin: 10px 0;
+                font-size: 14px;
+            }
+            input[type="TextFiled"] {
+                padding-bottom: 50px;
+                margin-right: 50px;
+                width: 50px
+            }
+        </style>
+    </head>
+    <body>
+    <div id="ad">
+        <ul>
+            <li id="line">
+                <em>The</em>
+                <strong>best</strong>
+                prices
+            </li>
+            <li id="line1">
+                <em>
+                    <strong>Act while</strong>
+                    <p>Yellow</p>
+                </em>
+            </li>
+        </ul>
+    </div>
+    <button>text</button>
+    <a id="text1" href="example.com">text</a>
+    <a id="text2" href="example.com">text</a>
+    <p id="text3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod consequat mauris, ut mattis arcu tristique a. Cras et ligula id odio consequat pellentesque.</p>
+    </body>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text1" id="username" name="username" placeholder="Enter username">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Enter email">
+        <input type="TextFiled" id="name1" name="name1" placeholder="Enter name">
+        <input type="button" id="name1" name="name1" value="Enter" placeholder="Enter name">
+        <input type="textarea" id="name2" name="name2" placeholder="Enter">
+        <input type="radio" id="name2" name="name2" placeholder="Enter 1">
+        <input type="submit" value="Submit">
+    </form>
+    <div>
+        <h2>Hello</h2>
+        <p class="text">See our special</p>
+        <p>no</p>
+        <p>We will say<span> hi </span></p>
+        <span>fan</span>
+        &ltp&gtThis is my code, We know the problem &lta&gthref=&quotgoogle.com&quot&lt/a&gt&lt/p&gt
+    </div>
+</html>

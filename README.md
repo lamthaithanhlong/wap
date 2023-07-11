@@ -5,7 +5,10 @@ main thing - read main point
 - regular expression
 - javascript , map ,reduce,filter ,flat map
 + ES6 syntax 
-- spear operator
+- spear operator <-
 - arrow functions
 - semicolon 
 - Destructuring
+- Call,Bind
+- Lexical Env, Scope
+- Object creation
